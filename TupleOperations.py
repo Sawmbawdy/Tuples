@@ -1,0 +1,6 @@
+tuplex = (1, 'hello', 3.4, True, (5, 6))
+tupley = (7, 8, 9)
+tupley = tupley + (9,)
+print(tupley)
+print(tupley.count(9))
+print(tuplex[2:6])
